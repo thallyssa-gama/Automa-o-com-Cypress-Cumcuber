@@ -36,19 +36,25 @@ A arquitetura foi desenhada seguindo as melhores práticas de isolamento e organ
 └── package.json                        # Gerenciamento de dependências e scripts do Node.js
 
 ```
-## Instalar as Dependências
-Bash 
+---
 
-cd Automa-o-com-Cypress-Cumcuber
+## 🛠️ Como Executar o Projeto
+Clone este repositório para sua máquina local.
 
---- 
-## Executar os Testes (Interface Visual)
+Certifique-se de ter o Node.js instalado.
+
+Instale as dependências executando no terminal:
+
+Bash
+
+npm install
+
+Abra o Cypress Test Runner com o comando:
+
 Bash
 
 npx cypress open
 
----
-## Executar os Testes (Modo Headless)
-Bash
+Na interface do Cypress, selecione o arquivo carrinho_checkout.feature para assistir à execução em tempo real.
 
-npx cypress run
+👋 Desenvolvido por Thallyssa Gama 
