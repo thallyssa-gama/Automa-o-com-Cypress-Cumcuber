@@ -34,3 +34,21 @@ A arquitetura foi desenhada seguindo as melhores práticas de isolamento e organ
 │           └── carrinho_checkout.js    # Implementação lógica dos passos em JS
 ├── cypress.config.js                   # Configurações do Cypress, Webpack e redes/proxies
 └── package.json                        # Gerenciamento de dependências e scripts do Node.js
+
+```
+## Instalar as Dependências
+Bash 
+
+cd Automa-o-com-Cypress-Cumcuber
+
+--- 
+## Executar os Testes (Interface Visual)
+Bash
+
+npx cypress open
+
+---
+## Executar os Testes (Modo Headless)
+Bash
+
+npx cypress run
